@@ -24,6 +24,7 @@ $headrHeight: 66px;
     flex: 1 0 auto; 
     width: 100%; 
     transition: width 200ms ease; 
+    overflow: auto;
 } 
 
 .feed-contents { 
@@ -38,3 +39,7 @@ $headrHeight: 66px;
     flex-flow: row nowrap; 
     justify-content: space-between; 
 } 
+
+webview {
+    height: 100%;
+}

@@ -34,3 +34,5 @@ export interface IMenuRssPayload {
     menuItems: IMenuItem[];
     rssItems: RssItem[];
 } 
+
+export type TStore = IRootState & IAppActions;

@@ -14,7 +14,7 @@ const createFeedParserStream = (feed: Feed): NodeJS.WritableStream => {
     return parser;
 }
 
-const rss(feedUrl: string): Promise < Feed > => {
+const rss = (feedUrl: string): Promise < Feed > => {
     const feed: Feed = {
         title: '',
         items: []
