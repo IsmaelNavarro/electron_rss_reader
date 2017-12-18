@@ -25,6 +25,8 @@
     "@types/react": "^15.0.33",
     "@types/react-dom": "^15.5.1",
     "@types/react-mdl": "^1.7.19",
+    "@types/redux-actions": "^2.2.3",
+    "@types/sha1": "^1.1.1",
     "css-loader": "^0.28.4",
     "electron": "^1.7.3",
     "electron-debug": "^1.2.0",
@@ -43,6 +45,10 @@
     "react-dom": "^15.6.1",
     "react-mdl": "^1.10.3",
     "redux": "^3.7.1",
-    "request": "^2.83.0"
+    "redux-actions": "^2.2.1",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "request": "^2.83.0",
+    "sha1": "^1.1.1"
   }
 }
